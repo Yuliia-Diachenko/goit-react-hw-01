@@ -1,13 +1,14 @@
-import Profile from './components/profile/Profile.jsx';
+import Profile from './components/Profile/Profile';
 import userData from './userData.json';
-function App() {
-  
+import FriendList from './components/FriendList/FriendList';
+import friends from './friends.json';
 
+function App() { 
   return (
     <>
     <Profile userData = {userData}/>
+    <FriendList friends={friends}/>
     </>  
   )
 }
-
 export default App

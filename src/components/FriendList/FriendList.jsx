@@ -1,0 +1,16 @@
+import FriendListItem from '../FriendListItem/FriendListItem';
+
+function FriendList({friends}) {
+   return (
+
+    <ul>
+        {friends.map(friend => 
+        <li key={friend.id}>
+            <FriendListItem friend={friend} />
+        </li>
+        )}
+	
+    </ul>);
+
+}
+export default FriendList;
