@@ -1,8 +1,9 @@
+import css from './TransactionHistory.module.css';
 
 function TransactionHistory({items}){
 return (
 <table>
-  <thead>
+  <thead className={css.tableHead}>
     <tr>
       <th>Type</th>
       <th>Amount</th>

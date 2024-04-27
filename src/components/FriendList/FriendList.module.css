@@ -1,0 +1,8 @@
+.container {
+    list-style: none;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;    
+    justify-content: center;
+    padding-inline-start: 0;
+}
