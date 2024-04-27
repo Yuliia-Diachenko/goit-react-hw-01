@@ -1,3 +1,5 @@
+import clsx from "clsx";
+import css from "./FriendListItem.module.css";
 function FriendListItem({friend:{avatar, name, isOnline}}) {
 return (
   
