@@ -1,5 +1,5 @@
 
-function TransactionHistory({items:{id, type, amount, currency}}){
+function TransactionHistory({items}){
 return (
 <table>
   <thead>
@@ -11,11 +11,11 @@ return (
   </thead>
 
   <tbody>
-    {items.map(item => 
+    {items.map((item, id) => 
     <tr key={id}>
-      <td>{type}</td>
-      <td>{amount}</td>
-      <td>{currency}</td>
+      <td>{item.type}</td>
+      <td>{item.amount}</td>
+      <td>{item.currency}</td>
     </tr>
     )} 
     </tbody>
