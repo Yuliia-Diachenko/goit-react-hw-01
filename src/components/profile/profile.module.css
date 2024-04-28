@@ -9,7 +9,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 100px;
 }
-
 .name {
     font-size: 24px;
     font-weight: 700;
@@ -39,15 +38,13 @@
     padding-top: 10px;
     border-top: 1px rgb(69, 68, 68) solid;
     background-color: grey;
-    border-radius: 0 0 10px 10px;
-  
+    border-radius: 0 0 10px 10px;  
 }
 .item {
 display: flex;
 flex-direction: column;
 gap: 20px;
 text-align: center;
-
 }
  .nameItems {
     font-size: 18px;
