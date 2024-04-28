@@ -4,6 +4,7 @@ function Profile({userData:{username, tag, location, avatar,
     stats: {followers, views, likes}}}) {
    return ( 
     <div className={css.container}>
+
             <div>
                 <img className={css.image}
                 src={avatar}
@@ -27,6 +28,7 @@ function Profile({userData:{username, tag, location, avatar,
             </li>
         </ul>
     </div>
+    
     )
 }
 export default Profile;
